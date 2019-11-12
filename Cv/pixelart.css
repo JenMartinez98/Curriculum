@@ -1,0 +1,89 @@
+#container {
+  width: 400px;
+  height: 400px;
+  background-color: grey;
+  margin: 0 auto;
+}
+
+.actions {
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+button {
+  background: none;
+}
+
+#color-picker {
+  width: 200px;
+  float: left;
+}
+
+#color-picker div {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #666;
+  display: inline-block;
+}
+
+.acciones__botones {
+  width: 200px;
+  float: right;
+}
+
+.cambiar-tamanio {
+  border: 1px solid #333;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.cambiar-tamanio p {
+  display: inline-block;
+  font-size: 12px;
+  font-family: sans;
+  margin: 6px 0;
+}
+
+.cambiar-tamanio input {
+  width: 50px;
+  border: none;
+  font-size: 14px;
+  border-bottom: 1px solid #3498db;
+}
+
+.cambiar-tamanio button {
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.action-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 25px;
+  border: 1px #333 solid;
+  cursor: pointer;
+}
+
+.action-btn:hover {
+  background-color: #3498db;
+  border-color: #3498db;
+  color: white;
+}
+
+
+.cell {
+  float: left;
+  outline:1px solid white;
+  cursor: pointer;
+}
+
+.cell.no-border{
+  outline: none;
+}
