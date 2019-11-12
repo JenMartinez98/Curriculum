@@ -1,0 +1,351 @@
+html{
+     height: 100%;
+}
+body{
+  font-family: 'Lobster', cursive;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+  min-height: 100%;
+  background-color: #efefef;
+}
+
+.Contenedor_Principal{
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.Contenedor_Derecho{
+background: #ffffff;
+width: 72%;
+float: right;
+
+}
+
+.Contenedor_Izquierdo{
+
+width: 26%;
+float: left;
+
+}
+
+img{
+	width: 100%;
+}
+/*---------------------------------*/
+a{
+	text-decoration: none;
+}
+.mi-foto{
+   width: 100%;
+}
+
+.Redes{
+   display: block;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 26px;
+   background-color: #ffffff;
+   text-align: center;
+}
+
+.Redes-sociales{
+
+	width: 30px;
+	height: 30px;
+	margin-right: 4px;
+	margin-left: 4px;
+	float: left;
+	display: inline-block;
+}
+
+.Redes-sociales.facebook {
+    
+    background-image: url('Img/facebook-icon.png');
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.Redes-sociales.facebook :hover{
+   
+   background-image: url('Img/facebook-icon.png');
+}
+
+.Redes-sociales.Instagram {
+    
+    background-image: url('Img/Instagram.png');
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.Redes-sociales.Instagram :hover{
+   
+   background-image: url('Img/Instagram.png');
+}
+
+.w-clearfix:before,
+.w-clearfix:after{
+   content: " ";
+   display: table;
+
+}
+
+.w-clearfix:after{
+   clear: both;
+}
+
+.texto-hipervinculo{
+color: #cf6fb5;
+font-size: 12px;
+line-height: 44px;
+font-weight: 700;
+text-align: right;
+text-transform: uppercase;
+margin: 0 20px 0 0;
+}
+.Item{
+	padding: 0px;
+	border-bottom: 1px solid #26292e;
+	height: 45px;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+.hipervinculo:hover .texto-hipervinculo{
+color: #ffffff;
+}
+.hipervinculo{
+   background: #33373d;
+   display: inline-block;
+   width: 100%;
+}
+.hipervinculo:hover{
+background: #ffd414;
+}
+
+.icono{
+width: 24px;
+height: 24px;
+float: left;
+background-position: 0px 0px;
+background-size: cover;
+margin:10px 20px;
+}
+
+
+.icono.imagen-sobre-mi{
+   background-image: url('Img/sobre-mi.png');
+}
+
+.icono.imagen-educacion{
+   background-image: url('Img/educacion.png');
+}
+
+.icono.imagen-trabajo{
+   background-image: url('Img/experiencia-laboral.png');
+}
+
+.icono.imagen-hobbies{
+   background-image: url('Img/hobbie.png');
+}
+
+
+
+.hipervinculo:hover .icono.imagen-sobre-mi{
+
+	background-image: url('Img/sobre-mi-hover.png');
+}
+
+
+.hipervinculo:hover .icono.imagen-educacion{
+
+	background-image: url('Img/educacion-hover.png');
+}
+
+
+.hipervinculo:hover .icono.imagen-trabajo{
+
+	background-image: url('Img/experiencia-laboral-hover.png');
+}
+
+
+.hipervinculo:hover .icono.imagen-hobbies{
+
+	background-image: url('Img/hobbie-hover.png');
+}
+
+
+
+
+
+
+.titulo-seccion{
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 800;
+  text-transform: uppercase;
+
+}
+
+.seccion-titulo{
+  padding: 30px 10px 2px 40px;
+  border-bottom: 1px solid #efefef;
+  position: relative;
+}
+
+.sobre-mi,
+.estudios,
+.experiencia-laboral,
+.hobbies {
+   padding: 30px 70px;
+}
+
+.linea{
+  position: absolute;
+  left: 30px;
+  top: 65px;
+  width: 60px;
+  margin-top:0px;
+  padding-right:10px;
+  padding-left: 10px;
+  background:#ffffff;
+}
+
+.nombre {
+  font-size:28px;
+  line-height:25px;
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.profesion{
+  color: #777;
+  font-size: 22px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 30px;
+  margin-top: 0px;
+}
+
+p{
+ color: #777;
+ line-height: 22px;
+ font-weight: 500;
+ font-size: 15px;
+
+}
+
+#trabajos{
+  line-height:30px;
+}
+
+.inf{
+
+  color: #333;
+  font-size: 14px ;
+  font-weight: 700;
+  text-align: center;
+  display: inline-block;
+  width: 35%;
+  padding-top: 8px;
+  background-color: #fff;
+  border-right: 1px solid #efefef;
+
+}
+
+.value{
+ color: #666;
+ font-size: 14px;
+ text-align: center;
+ display: inline-block;
+ width: 63%;
+ padding-top: 8px;
+ padding-bottom: 8px;
+
+}
+
+.lista-datos{
+  width: 50%;
+  float: left;
+  border: 1px solid #efefef;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.lista-datos li{
+  border-bottom: 1px solid #efefef;
+  background: #fafafa;
+}
+
+.imagen-leer{
+  background-image: url(Img/leer.jpg);
+  width: 100%;
+  min-height: 140px;
+  background-position: 1px 1px;
+  background-size: cover;
+}
+
+.imagen-musica{
+  background-image: url(Img/musica.jpg);
+  width: 100%;
+  min-height: 140px;
+  background-position: 1px 1px;
+  background-size: cover;
+}
+
+.imagen-perro{
+  background-image: url(Img/perro.jpg);
+  width: 100%;
+  min-height: 140px;
+  background-position: 1px 1px;
+  background-size: cover;
+}
+
+.imagen-artesmarciales{
+  background-image: url(Img/sartesmarciales.png);
+  width: 100%;
+  min-height: 140px;
+  background-position: 1px 1px;
+  background-size: cover;
+}
+
+.hobbies{
+  align-content: center;
+}
+
+.item-hobbie{
+ width: 34%;
+ margin-right: 2px;
+ margin-left: 2px;
+ float: left;
+
+}
+
+.texto-hobbie{
+ margin-top: 7px;
+ font-weight: 700;
+
+ text-align: center;
+
+}
+
+.proyectos{
+  text-align: left;
+  text-indent: 40px;
+}
+
+*{
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+
+
